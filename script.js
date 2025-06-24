@@ -13,6 +13,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
         setTimeout(() => {
             window.location.href = "https://www.canva.com/design/DAGrJQReGlg/GplZ0c8PmM0EOy0R31skCQ/view?utm_content=DAGrJQReGlg&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hcca8658c5a";
-        }, 2000); // wait 2 seconds before redirecting
+        }, 1000000000000); // wait for a long time before redirecting
     });
 });
