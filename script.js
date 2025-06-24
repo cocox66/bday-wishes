@@ -1,4 +1,6 @@
 //script.js file
+console.log("Script loaded");
+
 document.addEventListener("DOMContentLoaded", function () {
     const btn = document.getElementById('surpriseBtn');
     const message = document.getElementById('hiddenMessage');
