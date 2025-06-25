@@ -16,8 +16,5 @@ document.addEventListener("DOMContentLoaded", function () {
             spread: 70,
             origin: { y: 0.6 }
         });
-        
-        // Play music on button click
-        music.play();
     });
 });
