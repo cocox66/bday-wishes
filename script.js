@@ -1,4 +1,4 @@
-//script.js file
+//js script
 console.log("Script loaded");
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -11,9 +11,10 @@ document.addEventListener("DOMContentLoaded", function () {
         prompt.style.display = 'none';
         message.style.display = 'block';
 
+        // Confetti burst 🎉
         confetti({
             particleCount: 150,
-            spread: 70,
+            spread: 80,
             origin: { y: 0.6 }
         });
     });
