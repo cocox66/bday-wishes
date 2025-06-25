@@ -11,11 +11,25 @@ document.addEventListener("DOMContentLoaded", function () {
         prompt.style.display = 'none';
         message.style.display = 'block';
 
-        // Confetti burst 🎉
+            // Confetti burst
         confetti({
-            particleCount: 150,
-            spread: 80,
-            origin: { y: 0.6 }
+          particleCount: 100,
+          spread: 70,
+          origin: { y: 0.7 }
         });
+    
+        // Play music
+        birthdayAudio.play().catch(e => {
+          console.log("Audio playback failed:", e);
+        });
+      });
+    
+      cardLink.addEventListener('click', () => {
+        // Second confetti burst
+        confetti({
+          particleCount: 150,
+          spread: 100,
+          origin: { y: 0.4 }
     });
+  });
 });
