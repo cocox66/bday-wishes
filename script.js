@@ -5,6 +5,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const btn = document.getElementById('surpriseBtn');
     const message = document.getElementById('hiddenMessage');
     const prompt = document.getElementById('prompt');
+    const birthdayAudio = document.getElementById('birthdayAudio');
+    const cardLink = document.getElementById('cardLink');
 
     btn.addEventListener('click', () => {
         btn.style.display = 'none';
